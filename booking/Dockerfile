@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install sqlite3 libsqlite3-dev
 RUN go get github.com/revel/revel
 RUN go get github.com/revel/cmd/revel
 RUN go get github.com/revel/samples
+RUN go get -u github.com/tools/godep
 
 # Use the revel CLI to start up our application.
 ENTRYPOINT revel run github.com/woodrow/samples/booking dev 9000
