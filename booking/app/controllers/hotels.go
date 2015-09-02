@@ -4,8 +4,8 @@ import (
 	"golang.org/x/crypto/bcrypt"
 	"fmt"
 	"github.com/revel/revel"
-	"github.com/revel/samples/booking/app/models"
-	"github.com/revel/samples/booking/app/routes"
+	"github.com/woodrow-shen/samples/booking/app/models"
+	"github.com/woodrow-shen/samples/booking/app/routes"
 	"strings"
 )
 

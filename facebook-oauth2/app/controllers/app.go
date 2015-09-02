@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/revel/revel"
-	"github.com/revel/samples/facebook-oauth2/app/models"
+	"github.com/woodrow-shen/samples/facebook-oauth2/app/models"
 	"net/http"
 	"net/url"
 	"strconv"
