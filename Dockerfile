@@ -2,7 +2,7 @@
 FROM golang:1.5.0
 
 # Grab the source code and add it to the workspace.
-ADD . /go/src/github.com/woodrow/samples/
+ADD . /go/src/github.com/woodrow-shen/samples/
 
 # Install pkg-config and sqlite3.
 RUN apt-get update && apt-get install sqlite3 libsqlite3-dev
